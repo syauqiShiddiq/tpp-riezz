@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="styleAdmin.css">
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <!-- Sidebar -->
+        <div class="col-md-2 sidebar p-3">
+            <h4 class="text-success font-weight-bold">Riezz.</h4>
+            <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link active" href="kocak.html"><i class="fas fa-home"></i> Dashboard</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-file-alt"></i> Bahan Baku Pembelian</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="produk1.html"><i class="fas fa-box"></i> Produk</a>
+            </li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="col-md-10">
+            <div class="dashboard-header">Dashboard</div>
+
+            <!-- Summary Cards -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card p-3 text-center">
+                        <h5>Total Penjualan</h5>
+                        <p class="font-weight-bold">$2,456</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3 text-center">
+                        <h5>Stock</h5>
+                        <p class="font-weight-bold">$3,326</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3 text-center">
+                        <h5>Total Orders</h5>
+                        <p class="font-weight-bold">1,326</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Table -->
+            <div class="d-flex justify-content-between my-3">
+                <button class="btn btn-primary btn-custom"><i class="fas fa-plus"></i> Tambahkan produk</button>
+                <button class="btn btn-danger btn-custom"><i class="fas fa-trash-alt"></i> Hapus produk</button>
+            </div>
+            
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Nama Produk</th>
+                        <th>Jumlah Stock</th>
+                        <th>Harga</th>
+                        <th>Aksi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Risol rogut cream</td>
+                        <td>67</td>
+                        <td>Rp3.500</td>
+                        <td>
+                            <button class="btn btn-success btn-sm"><i class="fas fa-plus"></i> Tambahkan</button>
+                            <button class="btn btn-warning btn-sm"><i class="fas fa-shopping-cart"></i> Jual</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Risol smoked beef</td>
+                        <td>32</td>
+                        <td>Rp4.500</td>
+                        <td>
+                            <button class="btn btn-success btn-sm"><i class="fas fa-plus"></i> Tambahkan</button>
+                            <button class="btn btn-warning btn-sm"><i class="fas fa-shopping-cart"></i> Jual</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Srikaya</td>
+                        <td>15</td>
+                        <td>Rp3.000</td>
+                        <td>
+                            <button class="btn btn-success btn-sm"><i class="fas fa-plus"></i> Tambahkan</button>
+                            <button class="btn btn-warning btn-sm"><i class="fas fa-shopping-cart"></i> Jual</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Bakwan udang</td>
+                        <td>20</td>
+                        <td>Rp2.500</td>
+                        <td>
+                            <button class="btn btn-success btn-sm"><i class="fas fa-plus"></i> Tambahkan</button>
+                            <button class="btn btn-warning btn-sm"><i class="fas fa-shopping-cart"></i> Jual</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Soes fla</td>
+                        <td>9</td>
+                        <td>Rp2.500</td>
+                        <td>
+                            <button class="btn btn-success btn-sm"><i class="fas fa-plus"></i> Tambahkan</button>
+                            <button class="btn btn-warning btn-sm"><i class="fas fa-shopping-cart"></i> Jual</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap and jQuery scripts -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
